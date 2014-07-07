@@ -50,7 +50,7 @@ public class DownloadUtils {
      */
     // TODO - You can change this to the appropriate setting for your
     // environment.
-    static final boolean DOWNLOAD_OFFLINE = true;
+    static final boolean DOWNLOAD_OFFLINE = false;
     
     /**
      * Make an Intent which will start a service if provided as a
@@ -121,7 +121,7 @@ public class DownloadUtils {
     
     /**
      * Download a file to the Android file system, then respond with
-     * the file location using the provided Messenger. 
+     * the file location using the provided Messenger.
      */
     public static void downloadAndRespond(Context context,
                                           Uri uri,
